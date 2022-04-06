@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>play tic-tac-toe</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles/play.css">
+    </head>
+    <body>
+        <h1>tic-tac-toe</h1>
+        <h4 id="status">Let X begin</h4>
+        <div>
+            <div class="grid">
+                <div class="cell" data-cell-number="0" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="1" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="2" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="3" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="4" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="5" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="6" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="7" data-isClicked="no" onclick="clicked(this)"></div>
+                <div class="cell" data-cell-number="8" data-isClicked="no" onclick="clicked(this)"></div>
+            </div>
+        </div>
+        <h3 class="result"></h3>
+        <input id="reset" type="button" value="Restart" onclick="reset()">
+        <script src="./js/play.js"></script>
+    </body>
+</html>
